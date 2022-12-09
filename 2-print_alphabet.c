@@ -1,22 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
-*main - Entry point
-*
-*Return: Always 0 (seccess/correct)
-*/
+ * main - returns alphabets
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
-
 {
-char alphabet;
+	int ch = 'a';
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-putchar(alphabet);
-}
-
-putchar('\n');
-
-return (0);
-
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
+	return (0);
 }
