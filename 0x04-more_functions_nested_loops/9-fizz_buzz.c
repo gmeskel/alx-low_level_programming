@@ -23,5 +23,3 @@ int main(void)
 	printf("Buzz\n");
 	return (0);
 }
-Footer
-© 2022 GitHub, Inc.
