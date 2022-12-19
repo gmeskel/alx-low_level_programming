@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
- * main - generates random valid passwords
- * Return: 0 if success
+ *main - generates random valid passwords
+ *Return: 0 (on success).
+ *
  */
 int main(void)
 {
@@ -18,7 +18,6 @@ int main(void)
 		sum += pass;
 		printf("%c", pass);
 	}
-
 	printf("%c", 2772 - sum);
 
 	return (0);
